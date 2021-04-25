@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <title>Weather App</title>
+</head>
+<body>
+    
+    <div class="header">
+        <div class="city">
+            <h2>Pune</h2>
+        </div>
+
+        <div class="image">
+            <canvas class="icon" width="128" height="128"></canvas>
+        </div>
+
+    </div>
+
+    <div class="temp">
+        <h2></h2>
+    </div>
+    
+    <div class="description">
+       <div class="main">
+            <span>A</span>
+        </div>
+        <div class="main_descp">
+            <span>B</span>
+
+        </div>
+    </div>
+
+    <div class="info-label">
+
+        <div class="feels"> 
+             <span>Feels like</span>
+        </div>
+
+        <div class="humidity">
+            <span>Humidity</span>
+        </div>
+
+        <div class="pressure">
+             <span>Pressure</span>
+        </div>
+        
+        <div class="mintemp">
+            <span>Min temp</span>
+        </div>
+
+    </div>
+
+    <div class="info">
+
+        <div class="feels"> 
+             <span></span>
+        </div>
+
+        <div class="humidity">
+            <span>B</span>
+        </div>
+
+        <div class="pressure">
+             <span>C</span>
+        </div>
+        
+        <div class="mintemp">
+            <span></span>
+        </div>
+
+    </div>
+
+   <div class="other">
+    <input type="text" class="cityname" placeholder="Enter the city name">
+    <button class="search">Search</button>  
+   </div>
+
+
+
+
+    <script src="app.js"></script>
+    <script src="skycons.js"></script>
+</body>
+</html>

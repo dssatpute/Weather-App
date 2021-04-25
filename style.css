@@ -1,0 +1,122 @@
+*
+{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat';
+    flex-direction: column  ;
+    flex-wrap:wrap-reverse;
+    background-color: #045de9;
+    background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+    min-height: 100vh;
+   
+}
+.temp
+{
+    font-size: 1.5rem;
+}
+.header
+{
+    margin-top: 100px;
+    display: flex;
+    width: 400px;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+/* .city,.temp
+{
+    margin:20px;
+} */
+.city
+{
+    font-size: 2rem;
+}
+.image
+{
+    height: 130px;
+    width: 130px;
+}
+.description
+{
+    display: flex;
+  
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+}
+.description .main,.main_descp
+{
+    font-size: 1.5rem;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.info
+{
+  display: flex;
+  width: 400px;
+  margin-top: 11px;
+  font-weight: 900;
+
+}
+.info .feels
+{
+    margin-left: 25px;
+}
+
+.info .humidity
+{
+    margin-left: 70px;
+}
+
+.info .pressure
+{
+    margin-left: 70px;
+}
+
+.info .mintemp
+{
+    margin-left: 60px;
+}
+
+
+.info-label
+{
+    margin-top: 20px;
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+}
+
+.other
+{
+    margin-top: 30px;
+}
+.search
+{
+    border-radius: 10px;
+    height: 30px;
+    width: 90px;
+    cursor: pointer;
+    outline: none;
+    margin-left: 10px;
+    background-color: rgb(240, 32, 240);
+    border: none;
+}
+.search:hover{
+    background-color: rgb(221, 164, 226);
+}
+.cityname
+{
+    outline: none;
+    font-size: 1rem;
+    padding: 0.3rem;
+    border-radius: 5px;
+    border: none;
+}
